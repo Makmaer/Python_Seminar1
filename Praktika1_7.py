@@ -1,7 +1,4 @@
 # 7. Проверить истинность утверждения ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z для всех значений предикат.
-from calendar import c
-
-
 print('x', 'y', 'z', '  X ⋁ Y', '  X ⋁ Y ⋁ Z','  ¬(X ⋁ Y ⋁ Z)', '  ¬x', '¬y', '¬z', '  ¬X ⋀ ¬Y', '  ¬X ⋀ ¬Y ⋀ ¬Z' )
 for x in range(0,2):
     for y in range(0,2):
